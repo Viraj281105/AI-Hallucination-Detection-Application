@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Our Custom Project Rules ---
+
+# ---------------------------------
+# 🔒 Secrets
+# ---------------------------------
+# Ignore all environment files that hold API keys
+.env
+*.env
+
+# ---------------------------------
+# 📦 Local Database
+# ---------------------------------
+# Ignore the entire ChromaDB database folder
+/db/
+
+# ---------------------------------
+# 💻 Editor Settings
+# ---------------------------------
+# Ignore VS Code user settings
+.vscode/
+
+# ---------------------------------
+# 📒 Source Notebooks
+# ---------------------------------
+# Ignore the original .ipynb files (we're a .py app)
+*.ipynb
