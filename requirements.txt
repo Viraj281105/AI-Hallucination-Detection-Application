@@ -1,0 +1,28 @@
+# requirements.txt (High-Performance Build)
+
+# --- Core API ---
+fastapi[all]
+uvicorn
+
+# --- AI & Data Processing (Upgraded) ---
+torch
+transformers
+sentence-transformers
+huggingface-hub
+datasets
+accelerate
+bitsandbytes
+ctransformers[cuda]    # <-- NEW: For high-speed GGUF model inference on GPU
+hnswlib                # <-- NEW: Ensures high-speed C++ backend for Chroma
+
+# --- Database ---
+chromadb
+
+# --- Utilities & Testing ---
+python-dotenv
+pytest
+httpx
+duckduckgo_search
+
+# --- Documentation ---
+mkdocs-material
