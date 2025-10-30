@@ -43,3 +43,12 @@ git commit -m "feat(api): Add /history endpoint
 >
 > Implements the /history GET endpoint to retrieve all
 > verified claims from the sqlite database."
+
+## 4. Submitting a Pull Request
+
+1.  Push your feature branch to your fork.
+2.  Open a Pull Request (PR) from your branch to the main repo's `develop` branch.
+3.  Ensure the GitHub Actions (CI) tests pass.
+4.  Link the PR to the GitHub Issue it resolves (e.g., "Closes \#1").
+
+<!-- end list -->
