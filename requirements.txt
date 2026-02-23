@@ -5,7 +5,6 @@ fastapi[all]
 uvicorn
 
 # --- AI & Data Processing (Upgraded) ---
-torch
 transformers
 sentence-transformers
 huggingface-hub
